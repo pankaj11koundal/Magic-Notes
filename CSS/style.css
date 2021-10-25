@@ -1,0 +1,82 @@
+body{
+    background-color: #82C7FF;
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    margin-top: 3rem;
+}
+
+/* Styling text box and card section */
+.main-box{
+    text-align: center;
+}
+
+.text-box{
+    color: #362236;
+    height: 400px;
+    width: 500px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    text-align: left;
+    background-color: #B5DEFF;
+    padding-top: 1rem;
+}   
+
+.image-box{
+    padding-right:2rem; 
+    margin-right: 2rem;
+}
+
+.card-title{
+    font-family: 'Pacifico', cursive;
+}
+
+.card-subtitle{
+    padding-bottom: .5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.font-weight-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700!important;
+    font-size: x-large;
+}
+
+.button-box{
+    text-align: right;
+    padding-right: .5rem;
+    padding-top: 1rem;
+}
+
+/* Styling the notes box  */
+.notes-box{
+    background-color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.card-shell{
+    margin:1rem 0;
+}
+
+/* Styling footer here */
+#footer{
+    margin-top: 2rem;
+    padding:0 2rem 2rem ;
+}
+
+/* Responsive work  */
+/* Styling text box and card section */
+@media (max-width: 1200px){
+    .main-box{
+        text-align: center;
+        display: grid;
+        grid-template-rows: 2;
+        grid-auto-rows: auto;
+    }
+}

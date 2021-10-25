@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Notes</title>
+
+    <!-- bootstrap CSS link? -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <section id="header">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <a href="#" class="navbar-brand">Magic Notes</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id=navbarTogglerDemo01>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-links ml-3" href="">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-links ml-3" href="">Login</a>
+                    </li>
+                </ul>
+                <form class="form-inline ml-auto">
+                    <input id="searchBox" class="form-control mr-sm-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </section>
+
+    <section id="body">
+
+        <div class="row main-box container-fluid m-auto">
+
+            <div class="col-lg-4 col-md-6 image-box">
+                <img src="images/Turquoise Blue and Orange Sky Cute and Cheeky Personal Motivational Instagram Post.png"
+                    alt="quote">
+            </div>
+
+            <div class="col-lg-6 card text-box">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h1>Magic Notes</h1>
+                    </div>
+                    <div class="card-subtitle text-muted">
+                        Add your notes here....
+                    </div>
+                    <div class="card-text textarea">
+                        <textarea multiple class="form-control font-weight-bold" id="textbox" rows="5"
+                            placeholder="write here....."></textarea>
+                    </div>
+                    <div class="button-box">
+                        <div class="btn btn-light btn-outline-info" id="addbtn"><i class="fas fa-plus"></i> Add Note
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="notes-box ">
+
+            <h1>NOTES</h1>
+            <div class=" container-fluid row inner-notes-box " id="notes">
+                <div class="col-lg-4 col-md-2 card-shell">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>0</h1>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Add some notes from above section.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="button-box">
+                                <div class="btn btn-light btn-outline-info" id="dletebtn"><i class="fas fa-trash-alt">
+                                    </i>Delete Note</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <h1>Made with <i class="fas fa-magic"> </i> in udaipur</h1>
+        <p><i class="far fa-copyright"></i> TheNullPerson</p>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
